@@ -1,0 +1,71 @@
+.footer_wrap{
+    width: 1349px;
+    height: 900px;
+    background: url("../image/footer_pic-small.jpg") center center;
+    background-size:1349px 900px;
+    margin: 0 auto;
+}
+.footPhoto{
+    width: 100%;
+    vertical-align: middle;
+    z-index: -1;
+}
+.footer_content{
+
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.f_logo{
+    background: url("../image/logo_v.png") no-repeat;
+    float: left;
+    width: 134px;
+    background-size: 120px;
+    height: 200px;
+}
+.slogan{
+    width: 252px;
+    margin-left: 20px;
+    color: #1e384c;
+    line-height: 26px;
+    font-weight: bold;
+}
+.footer_content>ul li>a{
+    margin-left: 20px;
+    color: #1e384c;
+    line-height: 26px;
+    font-weight: bold;
+}
+.footer_content li a:hover{
+    text-decoration: underline;
+}
+.contact{
+    width: 180px;
+    text-align: left;
+    font-family: 'Din-Bold';
+    color: #253e51;
+    line-height: 21px;
+    font-size: 12px;
+}
+.number{
+    font-size: 24px;
+    margin-bottom: 16px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.wechat{
+    width: 90px;
+    height: 90px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: rgba(97, 94, 94, 0.81);
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 27px;
+    margin: 0 auto;
+}
+

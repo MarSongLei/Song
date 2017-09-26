@@ -1,0 +1,282 @@
+.car_main{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.car{
+    width: 1020px;
+    margin: 0 auto;
+}
+.car_title{
+    width: 100%;
+    height: 42px;
+}
+.car_title table tr td{
+    display: inline-block;
+    margin-right: 20px;
+}
+.car_title h1{
+    font-size: 25px;
+    font-weight: bold;                  /* 多数字体颜色color:#143749 ;*/
+    color:#143749 ;
+    background: url("../image/ym_icon_cart.png") no-repeat left center ;
+    background-size: 28px;
+    padding-left: 42px;
+    padding-top: 5px;
+}
+.car_title table{
+    font-size: 15px;
+    color:#143749  ;
+    font-weight:900;
+}
+.ym_step{
+    line-height: 30px;
+}
+.ym_step a{
+    font-weight:900;
+    color: #98b99c;
+}
+.ym_step1 a{
+    font-weight:900;
+    color:#143749  ;
+}
+.ym_step1{
+    line-height: 25px;
+    border-bottom: solid 3px #f4b46f;
+}
+.ym_step .step{
+    color: #c8c8c8;
+    display: inline-block;
+    margin-right: 10px;
+}
+.ym_step1 .step{
+    color: #143749;
+}
+.ym_arrow{
+    width: 15px;
+    height: 20px;
+    background: url("../image/icon_step_arrow.png");
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.car_delet a{
+    display: block;
+    position: relative;
+    background-color: #afc5cd;
+    background-image: url(../image/icon_delete.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    border-radius: 19px;
+    float: left;
+    background-position: center;
+    background-size: 14px;
+}
+.car_body table{
+
+    text-align: left;
+}
+.car_body thead{
+    display: block;
+    border-top: solid 1px #caeaca;
+}.car_body th{
+    height: 41px;
+ }
+.car_body tr{
+    display: block;
+  border: solid 1px #caeaca;
+    border-bottom: none;
+}
+.car_body td{
+    height: 73px;
+}
+.t_tex{
+    width: 370px;
+}
+.t_img{
+    width: 75px;
+}
+.t_img img{
+    width: 44px;
+    height: 44px;
+}
+.t_one{
+    width: 45px;
+padding-left: 10px;
+}
+.t_one .select_all{
+    border: #caeaca solid 3px;
+   width: 22px;
+    height: 22px;
+    /*-webkit-appearance:none;*/
+    /*appearance:button;*/
+    background-color:white;
+}
+/*input[type=checkbox]:checked::after {*/
+    /*!* content: ''; *!*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*background: url(../image/icon_check.png) no-repeat;*/
+    /*background-size: 12px;*/
+    /*background-position: center;*/
+/*}*/
+.t_three{
+       width: 150px;
+}
+.t4{
+    width: 135px;
+}
+.t4 .a_sp{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height:25px;
+    border: 1px solid #afc5cd;
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+    color: #afc5cd;
+    font-size: 30px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight:700;
+}
+.t4 input{
+    width: 40px;
+    height: 30px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #afc5cd;
+    font-family: 'Din-Bold';
+    font-size: 18px;
+}
+.t4 .a_sb{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #afc5cd;
+    border-radius:0 4px 4px 0;
+    border-left: 0;
+    color: #afc5cd;
+    font-size: 30px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight:700;
+}
+/*.t4 div .a_sp{
+    position: relative;
+    top: -3px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight:700;
+    -webkit-font-smoothing: antialiased;
+    font-size: 30px;
+}  */                                         /* 多数字体颜色color:#143749 ;*/
+.t4 div .a_sp:hover{
+    color: #143749 ;
+}
+/*.t4 div .a_sb{*/
+    /*position: relative;*/
+    /*top: -3px;*/
+    /*display: inline-block;*/
+    /*font-family: 'Glyphicons Halflings';*/
+    /*font-style: normal;*/
+    /*font-weight:700;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*font-size: 30px;*/
+/*}                                           !* 多数字体颜色color:#143749 ;*!*/
+.t4 div .a_sb:hover{
+    color: #143749 ;
+}
+.t_three{
+    font-size: 14px;
+    font-weight: 700;
+    color: #143749 ;
+}
+.t_img,.t_tex{
+    font-size: 14px;
+    font-weight: 700;
+    color: #143749 ;
+}
+/*tfoot*/
+.tf_btn{
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.tf_btn button{
+    width: 80px;
+    height: 30px;
+    /*border-radius: 5px;*/
+}
+.tf_btu{
+    width: 100px;
+    padding-top: 10px;
+}
+.tf_btu button{
+    width: 65px;
+    height: 30px;
+    /*border-radius: 5px;*/
+}
+.tf_ri{
+    color:#143749 ;
+    padding-top: 10px;
+}
+.tf_ri_tex{
+    margin-right: 30px;
+}
+.tf_ri .p1{
+    font-size: 14px;
+   font-weight: bold;
+}
+.tf_ri .p2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.tf_ri .p2 span{
+    font-size: 25px;
+}
+.tf_ri_btn{
+    width: 240px;
+    height: 40px;
+    background-color: rgba(4,41,55,.8);
+    text-align: left;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.tf_ri_btn:hover{
+    background-color: rgba(4,41,55,1);
+    transition: .5s;
+}
+.tf_ri_btn a{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+line-height: 40px;
+padding-left: 20px;
+}
+.tf_ri_btn a .s1{
+    margin-left: 12px;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background: url("../image/icon_cart_white.png")left center no-repeat;
+    background-size: 22px 22px;
+}
+/*!*优惠板块*!*/
+/*.car_float{*/
+    /*width: 1020px;*/
+    /*margin-top: 30px;*/
+    /*background: yellow;*/
+/*}*/

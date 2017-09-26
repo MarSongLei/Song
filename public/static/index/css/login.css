@@ -1,0 +1,162 @@
+.content_wrap{
+    overflow: hidden;
+    padding-bottom: 100px;
+    position: relative;
+}
+/*登录内容左边部分*/
+.login_content{
+    width: 383px;
+}
+.login_content>h1{
+    width: 383px;
+    text-align:left;
+    letter-spacing: 15px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    line-height: 24px;
+    font-size: 24px;
+    color: #15374a;
+    border-bottom: 2px solid #d6e2e6;
+    padding-bottom: 20px;
+}
+.login_content>p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    color: #15374a;
+    padding: 10px 0;
+}
+.login_content>div{
+    width: 360px;
+    height: 44px;
+    border: 2px solid #d6e2e6;
+    line-height: 39px;
+    padding: 1px 10px;
+    border-radius: 0;
+    font-family: 'Din-Bold';
+    color: rgb(21, 55, 74);
+}
+.login_content>div>input{
+    width: 300px;
+    margin-left: 10px;
+    height: 44px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+#checkbox{
+    display: none;
+}
+.check_lab{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid  #d6e2e6;
+    vertical-align: middle;
+}
+[id=checkbox]:checked+.check_lab{
+    background: url(../image/icon_check.png) no-repeat center center;
+    background-size: 12px;
+}
+.rem{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+#login{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(21, 55, 74) ;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.forget{
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    color: rgb(21, 55, 74);
+}
+.content_right{
+    text-align: center;
+    color: rgb(21, 55, 74);
+    font-weight: bold;
+}
+.content_right>p>a{
+    color: rgb(21, 55, 74);
+    text-decoration: underline;
+    font-weight: normal;
+}
+.banner{
+    width: 780px;
+    height: 480px;
+    height: 480px;
+    background: url(../image/bkg_tags.jpg) no-repeat;
+    background-size: 100%;
+}
+#login_tex{
+    width: 270px;
+    height: 100px;
+    border: #f85954 solid 1px;
+    line-height: 100px;
+    color: red;
+    font-size: 17px;
+    position: absolute;
+    left: 40%;
+    top: 27%;
+    background-color:white;
+    display: none;
+}
+#login_tex i{
+    position: relative;
+    top: 1px;
+    left: -10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color:#f88e7d;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    border-radius: 50%;
+
+}
+#verify{
+    width: 270px;
+    height: 100px;
+    border: #f85954 solid 1px;
+    line-height: 100px;
+    color: red;
+    font-size: 17px;
+    position: absolute;
+    left: 40%;
+    top: 27%;
+    background-color: white;
+display: none;
+}
+#verify i{
+    position: relative;
+    top: 1px;
+    left: -10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color:#f88e7d;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    border-radius: 50%;
+}

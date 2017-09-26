@@ -1,0 +1,157 @@
+/*主体内容*/
+.content_wrap{
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+.content_left{
+    width: 430px;
+    background-color: white;
+}
+.content_left>form h1{
+    color: #15374a;
+    width: 100%;
+    letter-spacing: 15px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    line-height: 24px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+/*表单*/
+.form_item{
+    overflow: hidden;
+    line-height: 40px;
+    background-color: white;
+}
+.form_item>span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #15374A;
+}
+.input_box{
+    width: 327px;
+    height: 40px;
+    border: 2px solid #d6e2e6;
+}
+.input_box>input{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    color:#AFC5CD;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form_item img{
+    width: 71px;
+    height: 20px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.form_item a{
+    color: #0d3749;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mima{
+    color: #0d3749;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+    width: 80px;
+}
+.box {
+    width: 200px;
+    height: 10px;
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    position: relative;
+    top: -10px;
+}
+.bg {
+    height: 10px;
+}
+/*#passstrength{
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    top: -6px;
+    line-height: 20px;
+    background-color: yellow;
+    left: 90px;
+    text-align: right;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 新宋体;
+}*/
+
+/*.ok{
+    width: 300px;
+    height: 20px;
+    background-color: red;
+}
+.alert{
+    width: 260px;
+    height: 20px;
+    background-color: rebeccapurple;
+}
+.cerror{
+    width: 170px;
+    height: 20px;
+    background-color:#799cf8;
+ }*/
+#btn_verification{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 44px;
+    background-color:#0d3749 ;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.content_left>form>span{
+    font-weight: bold;
+    color: #0d3749;
+    display: inline-block;
+    margin-left: 100px;
+}
+#checkbox{
+    display: none;
+}
+.checkBox{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #AFC5CD;
+}
+[id=checkbox]:checked+.checkBox{
+    background: url(../image/icon_check.png) no-repeat center center;
+    background-size: 12px;
+}
+.agree>span{
+    font-weight: bold;
+    color: #0d3749;;
+}
+.btn_register{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 44px;
+    background-color:#0d3749 ;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*主体内容右边图片*/
+.content_right>img{
+    width: 750px;
+    height: 624px;
+}

@@ -1,0 +1,301 @@
+.header_wrap{
+    width: 100%;
+    height: 80px;
+    color: #0d3749;
+    border-top: 15px solid  #0d3749;
+}
+.header{
+    width: 1200px;
+    height:80px;
+    margin: 0 auto;
+}
+.logo{
+    width: 16%;
+    height: 100px;
+    background: url("../image/logo.png") no-repeat left 15px;
+    background-size: 150px;
+}
+.nav_wrap{
+    margin-top: 10px;
+}
+.nav_wrap>li{
+    width: 196px;
+    height: 25px;
+    float: left;
+    margin-top: 14px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-right: 2px solid gainsboro;
+    position: relative;
+}
+.nav_wrap li a{
+    color: #333;
+}
+.search{
+    width:204px;
+    margin-top: 22px;
+    height: 28px;
+    border-bottom: 2px solid #AFC5CD;
+}
+.search input{
+    width: 160px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+    border: none;
+    outline: none;
+    color:gray ;
+}
+.search button{
+    background: url("../image/icon_magnifier.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+    float: right;
+    background-color: #AFC5CD;
+    border: 0;
+    background-size: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.record>div{
+    margin-top: 20px;
+   width: 100px;
+    height: 30px;
+}
+.shop{
+    border-right:2px solid  #AFC5CD;
+    position: relative;
+}
+.minicart-text{
+    width: 29px;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    background: url("../image/ym_icon_cart.png") no-repeat center;
+    background-size: 22px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.op-cart-number{
+    background: #8dae98;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    padding: 1px;
+    color: #FFFFFF;
+    font-family: 'Din-Bold';
+    margin-left: -20px;
+    display: inline-block;
+    text-align: center;
+}
+.ym_uers{
+    background: url("../image/ym_icon_user.png") no-repeat center;
+    height: 30px;
+    width: 80px;
+    margin-top: 3px;
+    background-size: 22px;
+}
+.allGood{
+    width: 980px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    border: 1px solid #8dae98;
+    padding-left: 10px;
+    display: none;
+}
+.allGood li{
+    line-height: 29px;
+    width: 80px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 15px;
+}
+.allGood li.goodBg{
+    width: 80px;
+    height: 80px;
+    font-size: 12px;
+    text-align: left;
+    background-size: 38px;
+    padding-left: 15px;
+    border-bottom: 1px solid #8dae98;
+}
+.first{
+    background: url("../image/vegetable.jpg") no-repeat  20px 10px;
+
+}
+.goodBg a{
+    color:  #8dae98;
+    font-weight: bold;
+    padding-top: 45px;
+    display: block;
+}
+.goods:hover .allGood{
+    display: block;
+}
+.nav_wrap>li:hover{
+    background-color:#AFC5CD ;
+    text-decoration: underline;
+}
+.allGood a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.eater a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.officious a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.second{
+    background: url("../image/fruits.jpg") no-repeat 20px 10px;
+}
+.third{
+    background: url("../image/meat.jpg") no-repeat  20px 10px;
+}
+.four{
+    background: url("../image/milk.jpg") no-repeat  20px 10px;
+}
+.five{
+    background: url("../image/fish.jpg") no-repeat  20px 10px;
+}
+.six{
+    background: url("../image/breakfast.jpg") no-repeat  20px 10px;
+}
+.seven{
+    background: url("../image/snacks.jpg") no-repeat  20px 10px;
+}
+.eight{
+    background: url("../image/drink.jpg") no-repeat  20px 10px;
+}
+.nine{
+    background: url("../image/flavour.jpg") no-repeat  20px 10px;
+}
+.ten{
+    background: url("../image/environment.jpg") no-repeat  20px 10px;
+}
+.news{
+    position: relative;
+}
+.officious,.eater{
+    position: absolute;
+    top:25px;
+    left: 0;
+    border: 1px solid   #8dae98;
+    display: none;
+}
+.promo{
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    width: 196px;
+    background-color: white;
+}
+.promo>a{
+    height: 39px;
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    border-bottom:1px solid  #8dae98;
+}
+.news:hover .officious{
+    display: block;
+}
+.eat:hover .eater{
+    display: block;
+}
+.down{
+    width: 32px;
+    height: 19px;
+    display: none;
+    position: absolute;
+    background: url(../image/ics.png) no-repeat -117px -509px;
+}
+.arr{
+    top: 25px;
+    left: 38px;
+}
+.add{
+    top: 28px;
+    left: 25px;
+}
+.minicart-cont{
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top: 44px;
+    text-align: center;
+    line-height:60px;
+    background-color:white;
+    right: 0;
+    border: 1px solid #8dae98;
+    display: none;
+    color:#8dae98 ;
+    font-weight: bold;
+}
+.shop:hover .arr{
+    display: block;
+}
+.shop:hover .minicart-cont{
+    display: block;
+}
+.user{
+    position: relative;
+    cursor: pointer;
+}
+.user ul{
+    position: absolute;
+    background-color:white;
+    right: 0;
+    top: 44px;
+    border: 1px solid #8dae98;
+    display: none;
+}
+.user li{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+.user li a{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    height: 34px;
+    border-bottom: 1px solid #8dae98;
+    color: #333;
+    font-weight: bold;
+}
+.user:hover .arr{
+    display: block;
+}
+.shop:hover .minicart-cont{
+    display: block;
+}
+.user:hover .add{
+    display: block;
+}
+.user:hover .login{
+    display: block;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

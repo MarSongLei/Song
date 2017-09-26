@@ -1,0 +1,95 @@
+{:widget('Common/header')}
+<!-- /头部 -->
+
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <!-- Page Sidebar -->
+        {include file="common/left" /}
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="{:url('Index/index')}">系统</a>
+                    </li>
+                    <li class="active">图片管理</li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
+
+            <!-- Page Body -->
+            <div class="page-body"><button type="button" tooltip="添加图片" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url("Images/add",['id'=>$id])}'"> <i class="fa fa-plus"></i> Add
+                </button>
+                <div class="row">i
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <div class="widget-body">
+                                <div class="flip-scroll">
+                                    <table class="table table-bordered table-hover">
+                                        <thead class="">
+                                        <tr>
+                                            <th class="text-center">图片ID</th>
+                                            <th class="text-center">商品名称</th>
+                                            <th class="text-center">图片</th>
+                                            <th class="text-center">是否为封面</th>
+                                            <th class="text-center">操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {foreach $data as $v}
+                                        <tr>
+                                            <td align="center">{$v.image_id}</td>
+                                            <td align="center">{$v.goods_name}</td>
+                                            <td align="center">
+                                                <img src="{$v.image_s_url}" alt="">
+                                            </td>
+                                            <td align="center">{$v.is_face}</td>
+                                            <td align="center">
+                                                {if condition="($v.is_face != 1)"}
+                                                <a href="{:url('Images/set',['i'=>$v.image_id,'id'=>$v.goods_id])}" class="btn btn-primary btn-sm shiny">
+                                                <i class="fa fa-edit"></i> 设为封面
+                                                </a>
+                                                {/if}
+                                                <a href="{:url('Goods/index')}" class="btn btn-danger btn-sm shiny">
+
+                                                    <i class="fa fa-trash-o"></i> 返回
+                                                </a>
+                                                <!--tp3不支持$v.id 这种写法-->
+                                                <a href="#" onClick="warning('确实要删除吗', '{:url('Images/del',['i'=>$v.image_id])}')" class="btn btn-danger btn-sm shiny">
+
+                                                <i class="fa fa-trash-o"></i> 删除
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        {/foreach}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--分页-->
+
+
+            </div>
+            <!-- /Page Body -->
+        </div>
+        <!-- /Page Content -->
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="__STATIC__/admin/style/jquery_002.js"></script>
+<script src="__STATIC__/admin/style/bootstrap.js"></script>
+<script src="__STATIC__/admin/style/jquery.js"></script>
+<!--Beyond Scripts-->
+<script src="__STATIC__/admin/style/beyond.js"></script>
+
+
+
+</body></html>

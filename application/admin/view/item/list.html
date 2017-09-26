@@ -1,0 +1,96 @@
+{include file="common/header"/}
+<!-- /头部 -->
+
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <!-- Page Sidebar -->
+        {include file="common/left"/}
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="#">系统</a>
+                    </li>
+                    <li class="active">链接管理</li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
+
+            <!-- Page Body -->
+            <div class="page-body">
+
+                <button type="button" tooltip="添加链接" class="btn btn-sm btn-azure btn-addon"
+                        onClick="javascript:window.location.href = '{:url(\'Item/add\')}'"><i class="fa fa-plus"></i>
+                    Add
+                </button>
+
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <div class="widget-body">
+                                <div class="flip-scroll">
+                                    <table class="table table-bordered table-hover">
+                                        <thead class="">
+                                        <tr>
+                                            <th class="text-center">ID</th>
+                                            <th class="text-center">订单ID</th>
+                                            <th class="text-center">订单编号</th>
+                                            <th class="text-center">订单数量</th>
+                                            <th class="text-center">订单价钱</th>
+                                            <th class="text-center">操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td align="center">1</td>
+                                            <td align="center">1</td>
+                                            <td align="center">1</td>
+                                            <td align="center">1</td>
+                                            <td align="center">
+                                                <a href="{:url(\'Links/edit\',array(\'id\'=>1))}"
+                                                   class="btn btn-primary btn-sm shiny">
+                                                    <i class="fa fa-edit"></i> 编辑
+                                                </a>
+
+                                                <a href="#"
+                                                   onClick="warning('确实要删除吗', '{:url(\'Links/del\',array(\'id\'=>1))}')"
+                                                   class="btn btn-danger btn-sm shiny">
+                                                    <i class="fa fa-trash-o"></i> 删除
+                                                </a>
+
+                                        </tr>
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="__STATIC__/admin/style/jquery_002.js"></script>
+<script src="__STATIC__/admin/style/bootstrap.js"></script>
+<script src="__STATIC__/admin/style/jquery.js"></script>
+<!--Beyond Scripts-->
+<script src="__STATIC__/admin/style/beyond.js"></script>
+
+
+</body></html>

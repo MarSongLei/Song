@@ -1,0 +1,464 @@
+/*尾部样式*/
+#header{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+#footer{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+}
+/*首页广告栏*/
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner_show{
+    width: 1200px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+.banner_show img,.banner_show>a{
+    width: 1200px;
+    height: 460px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner_show>a{
+   display: none;
+}
+.btn{
+   height: 40px;
+    width: 1200px;
+    position: relative;
+}
+.progress{
+    position: absolute;
+    width: 240px;
+    height: 3px;
+    background: #0D3749;
+    bottom: 0;
+    left: 0;
+}
+.btn>a{
+    display: block;
+    width: 240px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 2px solid #D6E2E6;
+    font-weight: bold;
+    color: #0D3749;
+    cursor: pointer;
+}
+.btn>a:hover{
+    background-color: #D6E2E6;
+}
+.container{
+    padding-bottom:50px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+/*广告下面的轮播图*/
+.simpleBlogArticle{
+    width: 264px;
+    height: 345px;
+    float: left;
+    margin-right: 47px;
+}
+.img-responsive{
+    width: 264px;
+    height: 183px;
+}
+.js_count{
+    color: #0d3749;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.abstract{
+    font-size: 14px;
+    line-height: 24px;
+    color: #4f6269;
+    font-weight: normal;
+}
+/*热购商品*/
+.rank-first-pic{
+    width: 37px;
+}
+.rank-first-pic img {
+    width: 100%;
+    height: auto;
+}
+.first_good{
+    width: 250px;
+    margin-left: 20px;
+    text-align: center;
+}
+.first_good>a>img{
+    width: 250px;
+    height: 250px;
+}
+.goodName{
+    font-size: 15px;
+    margin: 12px 0 0 0;
+    font-weight: bold;
+    line-height: 36px;
+    height: 36px;
+    color: #444;
+}
+.des{
+    font-size: 12px;
+    color: rgba(79, 98, 105, 0.5);
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 50%;
+}
+.product_unit{
+    font-size: 12px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 40%;
+    color: rgba(79, 98, 105, 0.5);
+    font-weight: bold;
+}
+.goodPrize{
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    color: #8cb69e;
+    margin-bottom: 20px;
+}
+.goodPic{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.goodPic>img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.surface{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: no-repeat center;
+    background-size: 100% 100%;
+}
+.goodPic>span{
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.minus{
+    left: 10%;
+    top: 65%;
+    background: url("../image/ym_icon_decrease_disabled.png") no-repeat  center;
+    background-size: 60px 60px;
+    opacity: 0;
+}
+.minus:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+}
+.plus:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+}
+.plus{
+    right: 10%;
+    top: 65%;
+    background: url("../image/ym_icon_increase.png") no-repeat  center;
+    background-size: 60px 60px;
+    opacity: 0;
+}
+.num{
+    left:50%;
+    margin-left: -30px;
+    top: 40%;
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    opacity: 0;
+}
+.goodName:hover{
+    text-decoration: underline;
+    color: #8cb69e;
+}
+.des:hover{
+    text-decoration: underline;
+}
+.grade{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color:#1D384C;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.good_list,.nCargo{
+    padding-top: 50px;
+    width: 1200px;
+    height: 700px;
+    border-bottom: 2px solid #8cb69e;
+}
+.other{
+    width: 890px;
+    height: 680px;
+}
+.other_good{
+    width: 180px;
+    text-align: center;
+    margin-left: 40px;
+}
+.goodPic_other{
+    position: relative;
+    width:180px;
+    height: 180px;
+    overflow: hidden;
+    display: block;
+}
+.goodPic_other>img{
+    width:180px;
+    height: 180px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.surface_other{
+    position: absolute;
+    width: 180px;
+    height:180px;
+    top: 0;
+    left: 0;
+    opacity:0;
+    background: no-repeat center;
+    background-size: 100% 100%;
+}
+.goodPicItem>span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+}
+.minus_other{
+    left: 10%;
+    top: 65%;
+    background: url("../image/ym_icon_decrease_disabled.png") no-repeat  center;
+    background-size: 40px 40px;
+    opacity: 0;
+}
+.minus_other:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+}
+.plus_other:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+}
+.plus_other{
+    right: 10%;
+    top: 65%;
+    background: url("../image/ym_icon_increase.png") no-repeat  center;
+    background-size: 40px 40px;
+    opacity: 0;
+}
+.num_other{
+    left:50%;
+    margin-left: -20px;
+    top: 40%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    opacity: 0;
+}
+.goodName:hover{
+    text-decoration: underline;
+    color: #8cb69e;
+}
+.des:hover{
+    text-decoration: underline;
+}
+.picture img{
+    width: 300px;
+    height: 527px;
+}
+.more_link{
+    margin-top: 10px;
+}
+.more_link>a{
+    font-weight: bold;
+    color: #444444;
+}
+/*选择列表*/
+.select_list_wrap{
+    padding-top: 100px;
+    width: 1349px;
+    height: 750px;
+    background: url("../image/bkg_tags.jpg") no-repeat center;
+    background-size:1349px 750px;
+    margin: 0 auto;
+}
+.select_logo>img,.aphorism_logo>img{
+    width: 37px;
+}
+.tags_desc{
+    width: 312px;
+    line-height: 32px;
+    font-size: 15px;
+    color: #4e5e67;
+    margin-left: 40px;
+}
+.tags_pics{
+    width: 750px;
+    height: 570px;
+    margin-left: 30px;
+}
+.tags_pic{
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    float: left;
+}
+.tags_pic>p{
+    margin-top: 15px;
+    color: #444444;
+    font-weight: bold;
+}
+.tags_picContainer{
+    background:no-repeat;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #fff;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background-size: 56px;
+    background-position: center;
+    opacity: 0.9;
+}
+/*厨房格言*/
+.theme{
+    width: 1000px;
+    margin-left: 20px;
+}
+.theme_title{
+    width: 430px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.theme_text{
+    margin-top:20px;
+    width: 430px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #4f6269;
+    margin-left: 40px;
+}
+.theme_text a:hover{
+    text-decoration: underline;
+}
+.theme_produce{
+    padding-top: 50px;
+    width: 1100px;
+    overflow: hidden;
+}
+.tabs{
+    width: 90px;
+}
+.goods_right_tabs{
+    height: 136px;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid #d6e2e6;
+    cursor: pointer;
+}
+.img-respon{
+    width: 63px;
+    height:63px;
+}
+.goods_right_tabs>p{
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.goods_right_tabs:hover{
+    background-color:#AFC5CD;
+    animation: all 0.5s ease 0s;
+}
+.goods_right_tabs:hover .img-responsive{
+    background-color: white;
+}
+.aphorism{
+    border-top: 2px solid #AFC5CD;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+/*食物记事*/
+.smallPic>img{
+    width:37px;
+}
+.smallPic{
+    margin-right: 20px;
+}
+.blogArt{
+    width: 481px;
+}
+.food_fashion{
+    width: 481px;
+    height: 320px;
+}
+.blogArtTitle>a{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #4f6269;
+}
+.blogArtTitle:hover{
+    text-decoration: underline;
+}
+.blogArtText{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4f6269;
+    line-height: 24px;
+}
+.blogArt2{
+    width: 300px;
+    margin-left: 25px;
+}
+.kunchong{
+    width: 300px;
+    height: 200px;
+}
+.goodPicItem:hover .reduceItem {
+    opacity: 1;
+}
+.goodPicItem:hover .addItem {
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,60 @@
+/*通用样式*/
+*{
+    margin: 0;
+    padding:0;
+}
+.wp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.z{
+    float: left;
+}
+.y{
+    float: right;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+img{
+    border: none;
+}
+body{
+    font-size: 15px;
+    font-family:STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif ;
+}
+.clear{
+    clear: both;
+}
+/*返回顶部*/
+.toTop,.kefu{
+    cursor: pointer;
+    opacity: 1;
+    position: fixed;
+    width: 60px;
+    height: 80px;
+    z-index: 999;
+}
+.toTop{
+    background: url('../image/ym_icon_to_top.png') center no-repeat;
+    display: none;
+    right: 18px;
+    bottom: 110px;
+    background-size: contain;
+}
+.kefu{
+    background: url('../image/iconbg.jpg') center no-repeat;
+    display: block;
+    bottom: 20px;
+    right: 18px;
+    opacity: 1;
+}
+.font_color{
+    color: #143749 ;
+    font-size: 14px;
+    font-weight: bold;
+}
